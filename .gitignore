@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+.env
+.DS_Store
+
+# Hardhat
+artifacts/
+cache/
+typechain/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env.local
+*.log
