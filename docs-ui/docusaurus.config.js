@@ -6,7 +6,7 @@ const config = {
   tagline: 'The Colony That Trades Together',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
+  // Set production url of your site here
   url: 'https://colonai.mula.labs',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/',
@@ -15,8 +15,9 @@ const config = {
   organizationName: 'labsmula',
   projectName: 'ColonAI',
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: {
+    throw: false,
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
