@@ -17,16 +17,16 @@ ColonAI is an autonomous agent economic system built on top of 0G Network. It's 
 
 ## Quick Start
 
-### [Introduction →](docs/intro)
+### [Introduction](intro)
 Learn about ColonAI vision and key features.
 
-### [Getting Started →](docs/getting-started)
+### [Getting Started](getting-started)
 Set up your development environment.
 
-### [Architecture →](docs/architecture)
+### [Architecture](architecture)
 Understand the 4-layer system design.
 
-### [Agents →](docs/agents)
+### [Agents](agents)
 Explore the six specialized AI agents.
 
 ## Documentation
