@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run docs:build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "devCommand": "npm run docs:dev",
+  "installCommand": "npm install",
+  "framework": null,
+  "regions": ["sin1"],
+  "redirects": [
+    {
+      "source": "/docs/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
