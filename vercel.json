@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run docs:build",
+  "devCommand": "npm run docs:dev",
+  "installCommand": "npm install",
+  "framework": null,
+  "regions": ["sin1"]
+  "redirects": [
+    {
+      "source": "/docs/:path*",
+      "destination": "/:path*"
+    }
+  ]
+}
