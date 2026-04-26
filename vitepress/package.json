@@ -1,0 +1,19 @@
+{
+  "name": "colonai-docs",
+  "version": "1.0.0",
+  "description": "ColonAI Documentation Platform (VitePress)",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
